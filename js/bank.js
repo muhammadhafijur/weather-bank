@@ -8,6 +8,6 @@ document.getElementById('login-submit').addEventListener('click', function(){
     if(userEmail == 'demo@gmail.com' && userPassword == 1234) {
         window.location.href = 'banking.html'
     } else {
-        document.write('wrong info')
+        document.write('Wrong password');
     }
 })

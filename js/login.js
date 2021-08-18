@@ -12,4 +12,6 @@ document.getElementById('login-submit').addEventListener('click', function(){
     else {
         document.write('please use valid username and password');
     }
-})
+});
+
+
